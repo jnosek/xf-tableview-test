@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:TableView.SelectionTest" x:Class="TableView.SelectionTest.MainPage">
+    <TableView>
+        <TableRoot>
+            <TableSection Title="Section 1">
+                <TextCell Text="Click Me" TextColor="Lime" Tapped="Handle_Tapped" />
+                <TextCell Text="Click Me" TextColor="Green" Tapped="Handle_Tapped" />
+                <TextCell Text="Click Me" TextColor="Olive" Tapped="Handle_Tapped" />
+                <EntryCell Label="Entry A" />
+                <EntryCell Label="Entry B" />
+            </TableSection>
+            <TableSection Title="Section 2">
+                <TextCell Text="Click Me" TextColor="Aqua" Tapped="Handle_Tapped" />
+                <TextCell Text="Click Me" TextColor="Blue" Tapped="Handle_Tapped" />
+                <TextCell Text="Click Me" TextColor="Navy" Tapped="Handle_Tapped" />
+                <EntryCell Label="Entry A" />
+                <EntryCell Label="Entry B" />
+            </TableSection>
+            <TableSection Title="Section 3">
+                <TextCell Text="Click Me" TextColor="Fuchsia" Tapped="Handle_Tapped" />
+                <TextCell Text="Click Me" TextColor="Red" Tapped="Handle_Tapped" />
+                <TextCell Text="Click Me" TextColor="Maroon" Tapped="Handle_Tapped" />
+                <EntryCell Label="Entry A" />
+                <EntryCell Label="Entry B" />
+            </TableSection>
+        </TableRoot>
+    </TableView>
+</ContentPage>
