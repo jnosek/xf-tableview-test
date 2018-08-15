@@ -3,6 +3,7 @@
     <TableView>
         <TableRoot>
             <TableSection Title="Section 1">
+                <TextCell Text="Reset" TextColor="Lime" Tapped="Reset_Tapped" />
                 <TextCell Text="Click Me" TextColor="Lime" Tapped="Handle_Tapped" />
                 <TextCell Text="Click Me" TextColor="Green" Tapped="Handle_Tapped" />
                 <TextCell Text="Click Me" TextColor="Olive" Tapped="Handle_Tapped" />
