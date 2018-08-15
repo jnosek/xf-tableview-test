@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="TableView.SelectionTest.ScrollPage">
+    <ScrollView>
+        <StackLayout Orientation="Vertical">
+            <Button Text="Reset" Clicked="Handle_Reset"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Blue"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Aqua"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Navy"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Red"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Fuchsia"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Maroon"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Green"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Lime"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Olive"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Purple"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Yellow"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Silver"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Teal"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Red"/>
+            <Button Text="Click Me" Clicked="Handle_Clicked" TextColor="Blue"/>
+            <Entry Keyboard="Numeric"/>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
